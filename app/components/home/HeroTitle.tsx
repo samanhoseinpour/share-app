@@ -5,11 +5,18 @@ const HeroTitle = () => {
     <section className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
         <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-          Data to enrich your online business
+          Platform to share your{" "}
+          <Link
+            href="/apps"
+            className="bg-gradient-to-r from-indigo-600 via-fuchsia-500 to-rose-500 bg-clip-text text-transparent"
+          >
+            Creative Apps
+          </Link>
         </h1>
         <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-          cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
+          Discover, showcase, and share beautifully crafted apps. Explore real
+          projects, learn from the community, and grow your audience with
+          feedback and collaboration.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Link

@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center flex-1 space-x-4">
           <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
-          <h2 className="font-bold">Share Application</h2>
+          <h2 className="font-bold">Share Applications</h2>
         </Link>
         <ul className="flex space-x-4 flex-1 justify-center font-semibold">
           {navbarItems.map((item) => (

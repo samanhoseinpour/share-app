@@ -6,7 +6,7 @@ const HeroImage = () => {
       <div className="-m-2 rounded-xl lg:-m-4 lg:rounded-2xl lg:p-4 ">
         <Image
           alt="Bento Grid Showing Apps"
-          src="https://cdn.dribbble.com/userupload/15526232/file/original-acb3c622ef876668a94f42bebc2de2d4.jpg?resize=752x&vertical=center"
+          src="https://cdn.dribbble.com/userupload/16803653/file/original-003b0d48c296ce12d521b99e8a86b380.jpg"
           width={2432}
           height={1442}
           className="rounded-md ring-1 shadow-2xl"
