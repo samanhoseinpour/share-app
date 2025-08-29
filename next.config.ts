@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         hostname: "cdn.dribbble.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "tailwindui.com",
+        pathname: "/plus-assets/**",
+      },
     ],
   },
 };

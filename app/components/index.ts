@@ -7,4 +7,7 @@ import Hero from "./home/Hero";
 import HeroTitle from "./home/HeroTitle";
 import HeroImage from "./home/HeroImage";
 
-export { Navbar, Footer, Hero, HeroTitle, HeroImage };
+// Comunity Page Components
+import BentoGrid from "./community/BentoGrid";
+
+export { Navbar, Footer, Hero, HeroTitle, HeroImage, BentoGrid };
