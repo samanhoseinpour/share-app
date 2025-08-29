@@ -42,7 +42,7 @@ const Footer = () => {
   const date = new Date();
 
   return (
-    <footer className="bg-white/10 backdrop-blur-3xl fixed bottom-0 w-full">
+    <footer className="bg-white/10 backdrop-blur-3xl fixed bottom-0 w-full shadow-2xl z-50">
       <div className="container mx-auto px-2.5 py-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center gap-x-6 md:order-2">
           {footerIcons.map((item) => (
